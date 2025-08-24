@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Times New Roman", Times, serif;
+  letter-spacing: 1.5;
+  background-color: rgb(190, 202, 202);
+}
+
+header {
+  text-align: center;
+  background-color: rgb(235, 231, 231);
+}
+
+nav {
+  background-color: rgb(65, 65, 150);
+  font-size: 20px;
+  padding: 7px;
+}
+
+nav a {
+  padding: 20px;
+  text-decoration: none;
+  color: rgb(228, 235, 232);
+}
+
+nav a :hover {
+  background-color: black;
+  color: white;
+  transition: 2;
+}
+
+main {
+  background-color: rgb(231, 225, 218);
+  width: 700px;
+  margin: auto;
+  border-radius: 20px;
+}
+
+main div img {
+  width: 600px;
+  height: 300px;
+  border-radius: 30px;
+  margin: 30px;
+}
