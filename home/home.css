@@ -41,3 +41,34 @@ header input {
 .phone {
     width: 10px;
 }
+
+.hero img {
+    width: 100%;
+    height: 400px;
+}
+
+.card {
+    width: 220px;
+    height: 190px;
+    margin: 50px;
+    background-color: aqua;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+.card h4 {
+    margin: 10px;
+}
+
+.card2 {
+    width: 200px;
+    height: 300px;
+    background-color: black;
+    margin: 50px;
+    color: white;
+    display: inline-block;
+}
+
+.card2 h3 {
+    margin: 10px;
+}
