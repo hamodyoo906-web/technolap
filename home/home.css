@@ -1,64 +1,38 @@
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
 }
 
 body {
-  font-family: "Times New Roman", Times, serif;
-  letter-spacing: 1.5;
-  background-color: rgb(190, 202, 202);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 1.5;
+}
+
+.start {
+    background-color: rgb(236, 242, 247);
+    
+}
+
+.start h3 {
+    text-align: right;
+    display: inline-block;
+    padding: 10px;
 }
 
 header {
-  text-align: center;
-  background-color: rgb(235, 231, 231);
+    background-color: white;
+    
 }
 
-nav {
-  background-color: rgb(65, 65, 150);
-  font-size: 20px;
-  padding: 7px;
+.lap {
+    display: inline-block;
+    color: rgb(49, 169, 225);
 }
 
-nav a {
-  padding: 20px;
-  text-decoration: none;
-  color: rgb(228, 235, 232);
-}
-
-nav a :hover {
-  background-color: black;
-  color: white;
-  transition: 2;
-}
-
-main {
-  background-color: rgb(231, 225, 218);
-  width: 700px;
-  margin: auto;
-  border-radius: 20px;
-}
-
-main div img {
-  width: 650px;
-  height: 300px;
-  border-radius: 30px;
-  margin: 30px;
-}
-
-.card {
-  width: 200px;
-  height: 200px;
-  background-color: #e7e1da;
-  margin: 60px;
-  display: inline-block;
-  border-radius: 15px;
-}
-
-.card img {
-  width: 170px;
-  height: 170px;
-  margin: 15px;
+header input {
+    border-radius: 15px;
+    padding: 3px 305px 3px 0;
+    margin: 0 20px 0 20px ;
 }
 
