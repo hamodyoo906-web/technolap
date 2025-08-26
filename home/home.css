@@ -22,7 +22,7 @@ body {
 
 header {
     background-color: white;
-    
+    padding: 10px;
 }
 
 .lap {
@@ -32,7 +32,12 @@ header {
 
 header input {
     border-radius: 15px;
-    padding: 3px 305px 3px 0;
-    margin: 0 20px 0 20px ;
+    width: 70%;
+    padding: 4px;
+    margin: 0 30px 0 30px ;
+    border: 1px rgb(206, 198, 198) solid;
 }
 
+.phone {
+    width: 10px;
+}
